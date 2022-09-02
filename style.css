@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+  box-sizing: border-box;
+}
+header {
+  text-align: center;
+  font-weight: 800;
+  padding: 2rem;
+}
+/************** FORM ************/
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.form {
+  width: 30%;
+  margin: 0rem 2rem;
+  opacity: 0.7;
+  font-size: 16px;
+}
+input,
+select {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 1.5rem;
+  padding-left: 0.5rem;
+}
+
+label {
+  display: inline-block;
+  margin: 0.5rem 0rem;
+}
+
+h3 {
+  margin-bottom: 0.5rem;
+}
+.inputs {
+  border: 2px solid rgb(142, 140, 140);
+  opacity: 0.5;
+  padding: 0.2rem;
+  border-radius: 0.4rem;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.contact,
+.shipping-address {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 14px;
+}
+
+.check-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0.5rem;
+  font-size: 14px;
+}
+.check-box div {
+  margin-right: 0.5rem;
+}
+.check-box input {
+  margin-left: 0;
+}
+.check-box input:hover {
+  cursor: pointer;
+}
+
+.post-country {
+  display: flex;
+  justify-content: space-between;
+}
+.country {
+  width: 40%;
+  margin-right: 1.5rem;
+}
+
+/* .inputs select {
+  width: 95%;
+} */
+.inputs select:hover {
+  cursor: pointer;
+}
+.post-code {
+  width: 60%;
+}
+.continue {
+  display: flex;
+  justify-content: right;
+}
+
+.continue-button {
+  width: 30%;
+  height: 2.5rem;
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+}
+/***************product************/
+
+.shopping-box {
+  background-color: #eeeeee;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+.product {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 2rem;
+  margin-bottom: 2rem;
+}
+.product img {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 8rem;
+}
+.price {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.dollar {
+  margin: 0.5rem 0;
+}
+.first-price {
+  color: orangered;
+  margin-right: 5px;
+}
+.second-price {
+  text-decoration: line-through;
+}
+.product-amount {
+  border: 2px solid rgb(141, 137, 137);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 7rem;
+}
+
+.product-amount i {
+  background-color: #afaeae;
+  padding: 0.3rem;
+  border-radius: 5px;
+}
+.product-amount i:hover {
+  cursor: pointer;
+}
+.shipping,
+.total {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid gray;
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 650px) {
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .form {
+    width: 100%;
+    max-width: 20rem;
+  }
+  .shopping-box {
+    width: 100%;
+    max-width: 20rem;
+  }
+  .continue {
+    margin-bottom: 2rem;
+  }
+}
