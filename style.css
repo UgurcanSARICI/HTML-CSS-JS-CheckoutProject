@@ -160,12 +160,38 @@ h3 {
 .product-amount i:hover {
   cursor: pointer;
 }
-.shipping,
-.total {
+.remove-product {
+  border: 0;
+  padding: 4px 8px;
+  margin: 5px;
+  background-color: #c66;
+  color: #fff;
+  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+.remove-product:hover {
+  background-color: #a44;
+  cursor: pointer;
+}
+
+.buy-detail {
+  margin: 5px 0;
+  border-top: 1px solid #bdbdbd;
   display: flex;
-  justify-content: space-between;
-  border-top: 1px solid gray;
-  margin: 10px 0;
+  position: relative;
+  width: 100%;
+  font-family: Mon, Arial, Helvetica, sans-serif;
+}
+
+.buy-detail p {
+  display: block;
+  width: 50%;
+}
+
+.buy-detail p:nth-child(2) {
+  text-align: right;
 }
 
 @media screen and (max-width: 650px) {
