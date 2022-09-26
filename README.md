@@ -1,99 +1,88 @@
-# HTML_CSS_Checkout
-Checkout
+
+# Project : Checkout Page
+
+## Table of contents
+
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Project Skeleton ](#project-skeleton)
+  - [Links](#links)
+  - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
 
 
 
-## Description
-Project aims to create Checkout within html and css.
-
-  Project Name       |Libraries and Technologies I use     |How does my project look   
-:-------------------------|-------------------------|-------------------------
-[Checkout](https://github.com/UgurcanSARICI/HTML-CSS-CheckoutProject/)| Html Css  |![Checkout](./images/checkout.gif)
-
+## The challenge
+Project aims to create a checkout website.
 
 ## Problem Statement
-- My project to improve html and css tutorials
 
-## Project Design
+- You are asked to create a simple checkout page. Your page should be responsive and the quantities of the products in your shopping cart can be changed.
+<hr>
 
-- Figma
+
 
 ## Project Skeleton 
 
 ```
-Checkout (folder)
-|----images
-|----readme.md                 
+parallax-website(folder)
+
+|----README.md                   
+|----images      
 |----index.html  
 |----style.css   
-       
+|----app.js
+
 ```
 
-## Expected Outcome
+## Screenshot
+<p align="center">
+<a href="https://ugurcansarici.github.io/HTML-CSS-CheckoutProject/"><img src="checkout.png" alt="screenshot"></a>
+</p>
 
-## Objective
 
-Functionally create a Checkout as in the image above
 
-### At the end of the project, following topics are to be covered;
+## Links
+<hr>
+<b>Check The Live Website ➡️</b> <a href="https://ugurcansarici.github.io/HTML-CSS-CheckoutProject/">Live Website</a>
+<hr>
 
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- JS DOM Manipulation
+
+- [Styled Components](https://styled-components.com/) - For styles
+	
 - HTML Forms-Input Types 
 
 - HTML Form Elements
 
 - CSS Colors-Border Properties
 
-- CSS Margins-Padding-Grid
+- CSS Margins-Padding
 
 - CSS Properties for Texts-Font Families-Links
 
 
-### At the end of the project, students will be able to;
-
-- improve coding skills within HTML & CSS
-
-- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
-
-## Steps to Solution
-  
-- Step 1: Download or clone project repo on Github 
-
-- Step 2: Create project folder for local public repo on your pc
-
-- Step 3: Create Checkout
-
->>Part-1 HTML Structure
-
-	- Creat structure of the HTML5
-	- Give name of your project (title)
-	- Create the main structure of the container (div id="container")
-	- Create Main Topic of the project (id="title")
-	- Create a description of your project (id="description")
-	- Create a form (id="Checkout")
-	
-
->>Part-2 CSS Structure
-	- Set a background and define font-color="white"
-	- Set container background color and margin
-	- Define "title" and "description" color-size-padding etc...
-	- Define "Checkout" color-size-padding etc..
-	- Define labels color-size-padding etc... (Tips: id="name", "email", "number" ...)
-	- Set class color-size-padding-margin etc...
-	- Define id="submit" color-size-padding etc...
-	
-- Step 4: Push your application into your own public repo on Github
-
-- Step 5: Deploy your application on Github template to showcase your app within your team.
+-
 
 ## Notes
 
 - You can use HTML,and CSS to complete this project.
 
-## Resources
+### Useful resources
+
+- [W3 Schoold](https://www.w3schools.com/) 
+- [MDN](https://developer.mozilla.org/en-US/) 
+
+
 
 
 
 
 <center> &#8987; Happy Coding  &#9997; </center>
-
-
