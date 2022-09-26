@@ -125,7 +125,7 @@ h3 {
   width: 100%;
   max-width: 8rem;
 }
-.price {
+.product-info {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -160,6 +160,9 @@ h3 {
 .product-amount i:hover {
   cursor: pointer;
 }
+.product-price span::before {
+  content: "$";
+}
 .remove-product {
   border: 0;
   padding: 4px 8px;
@@ -174,6 +177,16 @@ h3 {
 .remove-product:hover {
   background-color: #a44;
   cursor: pointer;
+}
+.product-line-price {
+  float: left;
+  clear: left;
+  width: auto;
+  margin-top: 10px;
+}
+
+.product-line-price:before {
+  content: "Product Total: $";
 }
 
 .buy-detail {
