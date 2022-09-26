@@ -25,19 +25,20 @@ Project aims to create a checkout website.
 ## Project Skeleton 
 
 ```
-parallax-website(folder)
+checkout-website(folder)
 
 |----README.md                   
 |----images      
 |----index.html  
 |----style.css   
 |----app.js
+|----checkout.gif
 
 ```
 
 ## Screenshot
 <p align="center">
-<a href="https://ugurcansarici.github.io/HTML-CSS-CheckoutProject/"><img src="checkout.png" alt="screenshot"></a>
+<a href="https://ugurcansarici.github.io/HTML-CSS-CheckoutProject/"><img src="checkout.gif" alt="gif"></a>
 </p>
 
 
@@ -68,12 +69,11 @@ parallax-website(folder)
 
 - CSS Properties for Texts-Font Families-Links
 
-
--
+- Deleting HTMl elements
 
 ## Notes
 
-- You can use HTML,and CSS to complete this project.
+- You can use HTML,CSS and JAVASCRIPT to complete this project.
 
 ### Useful resources
 
